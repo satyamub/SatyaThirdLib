@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A22428422CD607B4640A4AE4CD6C366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569795C43A5A1430FFD04AF42AF351FD /* Foundation.framework */; };
+		1FEBCE90E54C41CF770A9090C915A5B1 /* Pods-SatyaThirdLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B0CC370B6BDE97D2A0349B6888641 /* Pods-SatyaThirdLib_Example-dummy.m */; };
+		3603A09B956B658E5A670ADD548FFBE8 /* Pods-SatyaThirdLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E2DA75089DBE83F87AA6F9E11AE48B /* Pods-SatyaThirdLib_Tests-dummy.m */; };
+		61A425C92B1C7C447783BF2A52DA4174 /* Pods-SatyaThirdLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6C1446EC9BFA164936BFC94F06B2AC /* Pods-SatyaThirdLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E01987F3CA2724E718830D8D1D90851 /* Pods-SatyaThirdLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3B302926322F89B2388B1BAC642AFC /* Pods-SatyaThirdLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C708F6013542D7CC0D5FA30EB55C4D8 /* SatyaThirdLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 417E7A8E9092D6DAFEE8218731D31F76 /* SatyaThirdLib.bundle */; };
+		B7C5CDA4A080AAB4FBA483D986FBBC38 /* SatyaThirdLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26399FD157E1E22BD6924E2E1744C7F9 /* SatyaThirdLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87C4C5D0C2C72A71B36E2FC6679A02D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569795C43A5A1430FFD04AF42AF351FD /* Foundation.framework */; };
+		DA984C2A12ECF03603A1B9594C62C2F2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7089CD11AA1C4E30F9B6D36B482ABEF7 /* ReplaceMe.swift */; };
+		DB58ADEB44340B31995CD135EFEDE1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569795C43A5A1430FFD04AF42AF351FD /* Foundation.framework */; };
+		F12FE046956DA65B3B9159A1E1587BF8 /* SatyaThirdLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AFB1EECB40C43EE7FF4AACF0699472 /* SatyaThirdLib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DDDD27BF7E1C6D23FBA05A3DB245498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7240FD1ED021E2CFD59FE78038C83BC0;
+			remoteInfo = SatyaThirdLib;
+		};
+		768DF4868EF772EF4A70BFB93293634B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28389798638E1ECDB215A6EF8FDCAA9F;
+			remoteInfo = "SatyaThirdLib-SatyaThirdLib";
+		};
+		7F60270DB6560726D764B0602C2A97C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7240FD1ED021E2CFD59FE78038C83BC0;
+			remoteInfo = SatyaThirdLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1346DAFD8799E3EA43123FEA40530E7F /* Pods-SatyaThirdLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaThirdLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		26399FD157E1E22BD6924E2E1744C7F9 /* SatyaThirdLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaThirdLib-umbrella.h"; sourceTree = "<group>"; };
+		27E2DA75089DBE83F87AA6F9E11AE48B /* Pods-SatyaThirdLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatyaThirdLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		2DD1C950C2FA10F622D12DAED263C8E0 /* Pods-SatyaThirdLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaThirdLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E7C9BF122D5493F58028A2EA94AABC2 /* Pods_SatyaThirdLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatyaThirdLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417E7A8E9092D6DAFEE8218731D31F76 /* SatyaThirdLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatyaThirdLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FB0B093F3E058810CAD26C480D3A13 /* Pods-SatyaThirdLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaThirdLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F6C1446EC9BFA164936BFC94F06B2AC /* Pods-SatyaThirdLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatyaThirdLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		569795C43A5A1430FFD04AF42AF351FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6665DAE57673A894268C530F69073954 /* SatyaThirdLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaThirdLib-prefix.pch"; sourceTree = "<group>"; };
+		695322A8C220CD385AB84C229C61F47D /* Pods_SatyaThirdLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatyaThirdLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D2FE661E9F43E28ECC9E593230FD1A /* Pods-SatyaThirdLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatyaThirdLib_Example.modulemap"; sourceTree = "<group>"; };
+		7089CD11AA1C4E30F9B6D36B482ABEF7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		7B8B0CC370B6BDE97D2A0349B6888641 /* Pods-SatyaThirdLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatyaThirdLib_Example-dummy.m"; sourceTree = "<group>"; };
+		7CDC97B385EEA41BA85175D857DBB173 /* Pods-SatyaThirdLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatyaThirdLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E3B302926322F89B2388B1BAC642AFC /* Pods-SatyaThirdLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatyaThirdLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SatyaThirdLib-Private.xcconfig"; sourceTree = "<group>"; };
+		8389EBA0753702756C80A8281225504F /* SatyaThirdLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatyaThirdLib.modulemap; sourceTree = "<group>"; };
+		8401CA38D68D6BC2B0E72728B4FDE3FF /* SatyaThirdLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatyaThirdLib.xcconfig; sourceTree = "<group>"; };
+		84301416ED6A7AA532C0215B81FA1A06 /* Pods-SatyaThirdLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaThirdLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		8A06B1E73FF513C35CA748DD87C9D57E /* Pods-SatyaThirdLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatyaThirdLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		985D6A34BAC993DBD631CDF6B6601EE7 /* Pods-SatyaThirdLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaThirdLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E16D35A622BB9C9B5975414B6789DC /* Pods-SatyaThirdLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaThirdLib_Example-resources.sh"; sourceTree = "<group>"; };
+		9BA52204EA685357A422ED56C1AF4475 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0DD30FC0E83CA1EE0493B0E760B2D4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B604C76321B795B791798327CD411419 /* Pods-SatyaThirdLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatyaThirdLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6A5E35EB77BB63CD7ABE0180E664A2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA49B23CD16E09D88448B5179684EB67 /* Pods-SatyaThirdLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaThirdLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3AFB1EECB40C43EE7FF4AACF0699472 /* SatyaThirdLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatyaThirdLib-dummy.m"; sourceTree = "<group>"; };
+		DD9B5645BB39439A9A1A5AB9BD0BBC0F /* Pods-SatyaThirdLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatyaThirdLib_Tests.modulemap"; sourceTree = "<group>"; };
+		F21D288156ECECE938D686F84FD6E4DE /* Pods-SatyaThirdLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatyaThirdLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC9C5FCA068A2610EB35F0A0E31D2C45 /* SatyaThirdLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SatyaThirdLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAB89A37C0FEDD83704F00D7EC102BA /* Pods-SatyaThirdLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaThirdLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D626E8493D520FCC356E8CAB268E723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A22428422CD607B4640A4AE4CD6C366 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579AA7B569BC3865F4E0D1AE0C0099E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB58ADEB44340B31995CD135EFEDE1AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611A88718FCE2FADA329497BCAA4493F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C4C5D0C2C72A71B36E2FC6679A02D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0407750F4B75A7DEA3D6752507ABF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E79444AC40EAE660B1A28041CDDCC6 /* Pods-SatyaThirdLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD30FC0E83CA1EE0493B0E760B2D4D /* Info.plist */,
+				69D2FE661E9F43E28ECC9E593230FD1A /* Pods-SatyaThirdLib_Example.modulemap */,
+				F21D288156ECECE938D686F84FD6E4DE /* Pods-SatyaThirdLib_Example-acknowledgements.markdown */,
+				8A06B1E73FF513C35CA748DD87C9D57E /* Pods-SatyaThirdLib_Example-acknowledgements.plist */,
+				7B8B0CC370B6BDE97D2A0349B6888641 /* Pods-SatyaThirdLib_Example-dummy.m */,
+				2DD1C950C2FA10F622D12DAED263C8E0 /* Pods-SatyaThirdLib_Example-frameworks.sh */,
+				98E16D35A622BB9C9B5975414B6789DC /* Pods-SatyaThirdLib_Example-resources.sh */,
+				7E3B302926322F89B2388B1BAC642AFC /* Pods-SatyaThirdLib_Example-umbrella.h */,
+				FDAB89A37C0FEDD83704F00D7EC102BA /* Pods-SatyaThirdLib_Example.debug.xcconfig */,
+				1346DAFD8799E3EA43123FEA40530E7F /* Pods-SatyaThirdLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SatyaThirdLib_Example";
+			path = "Target Support Files/Pods-SatyaThirdLib_Example";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				569795C43A5A1430FFD04AF42AF351FD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56B98D85418B17AE1E8DA2E241A8ECD3 /* Pods-SatyaThirdLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A5E35EB77BB63CD7ABE0180E664A2D /* Info.plist */,
+				DD9B5645BB39439A9A1A5AB9BD0BBC0F /* Pods-SatyaThirdLib_Tests.modulemap */,
+				7CDC97B385EEA41BA85175D857DBB173 /* Pods-SatyaThirdLib_Tests-acknowledgements.markdown */,
+				B604C76321B795B791798327CD411419 /* Pods-SatyaThirdLib_Tests-acknowledgements.plist */,
+				27E2DA75089DBE83F87AA6F9E11AE48B /* Pods-SatyaThirdLib_Tests-dummy.m */,
+				BA49B23CD16E09D88448B5179684EB67 /* Pods-SatyaThirdLib_Tests-frameworks.sh */,
+				84301416ED6A7AA532C0215B81FA1A06 /* Pods-SatyaThirdLib_Tests-resources.sh */,
+				4F6C1446EC9BFA164936BFC94F06B2AC /* Pods-SatyaThirdLib_Tests-umbrella.h */,
+				985D6A34BAC993DBD631CDF6B6601EE7 /* Pods-SatyaThirdLib_Tests.debug.xcconfig */,
+				41FB0B093F3E058810CAD26C480D3A13 /* Pods-SatyaThirdLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-SatyaThirdLib_Tests";
+			path = "Target Support Files/Pods-SatyaThirdLib_Tests";
+			sourceTree = "<group>";
+		};
+		76E97CA6D8CE67909C170C9550B46D98 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7089CD11AA1C4E30F9B6D36B482ABEF7 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F4AA4839E96955758BDC34424C357764 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F4F8C6842E1C8BC5819269A9CF4676F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				695322A8C220CD385AB84C229C61F47D /* Pods_SatyaThirdLib_Example.framework */,
+				3E7C9BF122D5493F58028A2EA94AABC2 /* Pods_SatyaThirdLib_Tests.framework */,
+				417E7A8E9092D6DAFEE8218731D31F76 /* SatyaThirdLib.bundle */,
+				FC9C5FCA068A2610EB35F0A0E31D2C45 /* SatyaThirdLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6901F6BF63937ECA22926FD1C4A04DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				76E97CA6D8CE67909C170C9550B46D98 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F4AA4839E96955758BDC34424C357764 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A3D16022CD1DAE6BCD656C1C4AB074 /* SatyaThirdLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F4F8C6842E1C8BC5819269A9CF4676F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13E79444AC40EAE660B1A28041CDDCC6 /* Pods-SatyaThirdLib_Example */,
+				56B98D85418B17AE1E8DA2E241A8ECD3 /* Pods-SatyaThirdLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F71DB2790E3D7AB3B1882DEE0FC1FFBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA52204EA685357A422ED56C1AF4475 /* Info.plist */,
+				8389EBA0753702756C80A8281225504F /* SatyaThirdLib.modulemap */,
+				8401CA38D68D6BC2B0E72728B4FDE3FF /* SatyaThirdLib.xcconfig */,
+				7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */,
+				D3AFB1EECB40C43EE7FF4AACF0699472 /* SatyaThirdLib-dummy.m */,
+				6665DAE57673A894268C530F69073954 /* SatyaThirdLib-prefix.pch */,
+				26399FD157E1E22BD6924E2E1744C7F9 /* SatyaThirdLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SatyaThirdLib";
+			sourceTree = "<group>";
+		};
+		F7A3D16022CD1DAE6BCD656C1C4AB074 /* SatyaThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				E6901F6BF63937ECA22926FD1C4A04DB /* Pod */,
+				F71DB2790E3D7AB3B1882DEE0FC1FFBA /* Support Files */,
+			);
+			name = SatyaThirdLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BABDFD6FD1DC8DDA259CC32F0BA26AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A425C92B1C7C447783BF2A52DA4174 /* Pods-SatyaThirdLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35773A5034BC1EF3FA0C86F935B54DB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C5CDA4A080AAB4FBA483D986FBBC38 /* SatyaThirdLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1214D09AB2BC30771FB2B5432EAB187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E01987F3CA2724E718830D8D1D90851 /* Pods-SatyaThirdLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28389798638E1ECDB215A6EF8FDCAA9F /* SatyaThirdLib-SatyaThirdLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6F7761196D1E5AE7FC5B288429B2C4 /* Build configuration list for PBXNativeTarget "SatyaThirdLib-SatyaThirdLib" */;
+			buildPhases = (
+				F4467F79A371C4EF2FD998689092142E /* Sources */,
+				E0407750F4B75A7DEA3D6752507ABF5E /* Frameworks */,
+				218E55414617E6F71D1DDE71F0CE6C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SatyaThirdLib-SatyaThirdLib";
+			productName = "SatyaThirdLib-SatyaThirdLib";
+			productReference = 417E7A8E9092D6DAFEE8218731D31F76 /* SatyaThirdLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		63CA87686CD68E086D82E8C7F059A4D2 /* Pods-SatyaThirdLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542CC99BA7D45FEDB103DBB2F11F2258 /* Build configuration list for PBXNativeTarget "Pods-SatyaThirdLib_Example" */;
+			buildPhases = (
+				9C9F2059AF417A80FD2AEDEFD8347950 /* Sources */,
+				579AA7B569BC3865F4E0D1AE0C0099E5 /* Frameworks */,
+				A1214D09AB2BC30771FB2B5432EAB187 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D147A5C8C5D3CF01D879130DEC11F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SatyaThirdLib_Example";
+			productName = "Pods-SatyaThirdLib_Example";
+			productReference = 695322A8C220CD385AB84C229C61F47D /* Pods_SatyaThirdLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63EB879B06711826458DF965111A81AB /* Pods-SatyaThirdLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871AC6F0FE068184E18EC4B4D480E646 /* Build configuration list for PBXNativeTarget "Pods-SatyaThirdLib_Tests" */;
+			buildPhases = (
+				AB08BB699E669732F386C7E276E549C8 /* Sources */,
+				611A88718FCE2FADA329497BCAA4493F /* Frameworks */,
+				1BABDFD6FD1DC8DDA259CC32F0BA26AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3530C02DC4C699BC098ECA8C76394DE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SatyaThirdLib_Tests";
+			productName = "Pods-SatyaThirdLib_Tests";
+			productReference = 3E7C9BF122D5493F58028A2EA94AABC2 /* Pods_SatyaThirdLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7240FD1ED021E2CFD59FE78038C83BC0 /* SatyaThirdLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505EEE424C212D50BBA0E3723B20B422 /* Build configuration list for PBXNativeTarget "SatyaThirdLib" */;
+			buildPhases = (
+				A46E2C10558C7A1A407BE0ED1499E901 /* Sources */,
+				2D626E8493D520FCC356E8CAB268E723 /* Frameworks */,
+				F278BF0A43E06BFC8BDDFE954328F141 /* Resources */,
+				35773A5034BC1EF3FA0C86F935B54DB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040CD4DAA7B21A36F399A0406B54393B /* PBXTargetDependency */,
+			);
+			name = SatyaThirdLib;
+			productName = SatyaThirdLib;
+			productReference = FC9C5FCA068A2610EB35F0A0E31D2C45 /* SatyaThirdLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CA87686CD68E086D82E8C7F059A4D2 /* Pods-SatyaThirdLib_Example */,
+				63EB879B06711826458DF965111A81AB /* Pods-SatyaThirdLib_Tests */,
+				7240FD1ED021E2CFD59FE78038C83BC0 /* SatyaThirdLib */,
+				28389798638E1ECDB215A6EF8FDCAA9F /* SatyaThirdLib-SatyaThirdLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218E55414617E6F71D1DDE71F0CE6C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F278BF0A43E06BFC8BDDFE954328F141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C708F6013542D7CC0D5FA30EB55C4D8 /* SatyaThirdLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9F2059AF417A80FD2AEDEFD8347950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEBCE90E54C41CF770A9090C915A5B1 /* Pods-SatyaThirdLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46E2C10558C7A1A407BE0ED1499E901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA984C2A12ECF03603A1B9594C62C2F2 /* ReplaceMe.swift in Sources */,
+				F12FE046956DA65B3B9159A1E1587BF8 /* SatyaThirdLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB08BB699E669732F386C7E276E549C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3603A09B956B658E5A670ADD548FFBE8 /* Pods-SatyaThirdLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4467F79A371C4EF2FD998689092142E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040CD4DAA7B21A36F399A0406B54393B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SatyaThirdLib-SatyaThirdLib";
+			target = 28389798638E1ECDB215A6EF8FDCAA9F /* SatyaThirdLib-SatyaThirdLib */;
+			targetProxy = 768DF4868EF772EF4A70BFB93293634B /* PBXContainerItemProxy */;
+		};
+		3530C02DC4C699BC098ECA8C76394DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SatyaThirdLib;
+			target = 7240FD1ED021E2CFD59FE78038C83BC0 /* SatyaThirdLib */;
+			targetProxy = 7F60270DB6560726D764B0602C2A97C0 /* PBXContainerItemProxy */;
+		};
+		87D147A5C8C5D3CF01D879130DEC11F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SatyaThirdLib;
+			target = 7240FD1ED021E2CFD59FE78038C83BC0 /* SatyaThirdLib */;
+			targetProxy = 4DDDD27BF7E1C6D23FBA05A3DB245498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D089E5145EA20E373351E5C82CD3781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAB89A37C0FEDD83704F00D7EC102BA /* Pods-SatyaThirdLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatyaThirdLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SatyaThirdLib_Example/Pods-SatyaThirdLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatyaThirdLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E95B19CAE44B5C6E8EAEA9CFD6B1FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SatyaThirdLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BDA315B5F0247830546EAF74773B2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985D6A34BAC993DBD631CDF6B6601EE7 /* Pods-SatyaThirdLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatyaThirdLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SatyaThirdLib_Tests/Pods-SatyaThirdLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatyaThirdLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		621B7BFA79C577D9138011B0F3D78BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1346DAFD8799E3EA43123FEA40530E7F /* Pods-SatyaThirdLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatyaThirdLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SatyaThirdLib_Example/Pods-SatyaThirdLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatyaThirdLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9297BE5AB8C498DD5A26E4F75F4203D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FB0B093F3E058810CAD26C480D3A13 /* Pods-SatyaThirdLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SatyaThirdLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SatyaThirdLib_Tests/Pods-SatyaThirdLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SatyaThirdLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB8B2BFD5E697D6FE8936F3D17B3B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SatyaThirdLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D6895CF34C6A4523113FB15FEC127793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatyaThirdLib/SatyaThirdLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatyaThirdLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatyaThirdLib/SatyaThirdLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SatyaThirdLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFFB077E0BD449B6AD303DC9E7FC4D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5EF54BD1A438BCDE112099ED279152 /* SatyaThirdLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatyaThirdLib/SatyaThirdLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatyaThirdLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatyaThirdLib/SatyaThirdLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SatyaThirdLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505EEE424C212D50BBA0E3723B20B422 /* Build configuration list for PBXNativeTarget "SatyaThirdLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFB077E0BD449B6AD303DC9E7FC4D30 /* Debug */,
+				D6895CF34C6A4523113FB15FEC127793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542CC99BA7D45FEDB103DBB2F11F2258 /* Build configuration list for PBXNativeTarget "Pods-SatyaThirdLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D089E5145EA20E373351E5C82CD3781 /* Debug */,
+				621B7BFA79C577D9138011B0F3D78BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6F7761196D1E5AE7FC5B288429B2C4 /* Build configuration list for PBXNativeTarget "SatyaThirdLib-SatyaThirdLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E95B19CAE44B5C6E8EAEA9CFD6B1FE8 /* Debug */,
+				CB8B2BFD5E697D6FE8936F3D17B3B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871AC6F0FE068184E18EC4B4D480E646 /* Build configuration list for PBXNativeTarget "Pods-SatyaThirdLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDA315B5F0247830546EAF74773B2EF /* Debug */,
+				9297BE5AB8C498DD5A26E4F75F4203D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

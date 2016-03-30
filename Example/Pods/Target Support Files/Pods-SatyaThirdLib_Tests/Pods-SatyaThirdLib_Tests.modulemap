@@ -1,0 +1,6 @@
+framework module Pods_SatyaThirdLib_Tests {
+  umbrella header "Pods-SatyaThirdLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
