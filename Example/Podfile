@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SatyaThirdLib_Example', :exclusive => true do
+  pod 'SatyaThirdLib', :path => '../'
+end
+
+target 'SatyaThirdLib_Tests', :exclusive => true do
+  pod 'SatyaThirdLib', :path => '../'
+
+  
+end
